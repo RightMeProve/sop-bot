@@ -144,16 +144,16 @@ Go to: [http://localhost:8501](http://localhost:8501)
 
 ## 🧪 Example Flow
 
-1. User types: `how to handle fire emergency`
-2. Keywords extracted: `handle fire emergency`
+1. User types: `how to handle production environment`
+2. Keywords extracted: `handle production environment`
 3. ChromaDB returns top 3 SOP matches
 4. Bot replies with clickable document links like:
 
 ```
 I found these SOP documents:
 
-[Open fire_emergency_procedure] 🔗
-[Open safety_manual_section4] 🔗
+[Open production_environment_template] 🔗
+[Open resolving_production_error] 🔗
 ```
 
 Each opens the corresponding `.txt` file in a new tab.
@@ -168,15 +168,6 @@ Each opens the corresponding `.txt` file in a new tab.
   ```
 - ChromaDB persists in the `./chroma_db` directory.
 - Streamlit uses `st.session_state` to maintain chat history.
-
----
-
-## 💡 To Do
-
-- [ ] Add user authentication
-- [ ] PDF support with OCR (future)
-- [ ] Deploy on cloud (e.g., AWS, GCP)
-- [ ] Support document uploads via Streamlit
 
 ---
 
