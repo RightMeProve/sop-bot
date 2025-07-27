@@ -1,0 +1,27 @@
+SOP: Code Versioning with Git
+
+Purpose:
+This SOP outlines the step-by-step process for code versioning with git.
+
+Scope:
+This document applies to all relevant stakeholders involved in code versioning with git.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Clone the repository from the remote origin.
+2. Create a new feature branch using a meaningful name.
+3. Make code changes and commit frequently with descriptive messages.
+4. Pull latest changes from the main branch to stay updated.
+5. Run all tests locally before pushing.
+6. Push your branch to the remote repository.
+7. Open a pull request for code review.
+8. Address review comments and make necessary changes.
+9. Merge the pull request once approved.
+10. Delete the feature branch from remote after merge.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

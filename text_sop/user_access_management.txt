@@ -1,0 +1,27 @@
+SOP: User Access Management
+
+Purpose:
+This SOP outlines the step-by-step process for user access management.
+
+Scope:
+This document applies to all relevant stakeholders involved in user access management.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Submit a request for new user access with proper justification.
+2. Review the request against the access control policy.
+3. Create the user account in the system with minimum required privileges.
+4. Assign the user to appropriate groups or roles.
+5. Send account credentials securely via password manager or email.
+6. Ensure user completes security training before first login.
+7. Review and approve elevated access only with manager approval.
+8. Conduct quarterly access audits and remove unused accounts.
+9. Update access logs and record all changes.
+10. Deactivate or delete accounts upon employee offboarding.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

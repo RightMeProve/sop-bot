@@ -1,0 +1,27 @@
+SOP: API Versioning and Documentation
+
+Purpose:
+This SOP outlines the step-by-step process for api versioning and documentation.
+
+Scope:
+This document applies to all relevant stakeholders involved in api versioning and documentation.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Assign a version number to each breaking change in the API.
+2. Update the API base path to reflect version (e.g., /v2/endpoint).
+3. Maintain backward compatibility where possible.
+4. Use OpenAPI/Swagger for consistent documentation.
+5. Include usage examples and expected responses.
+6. Mark deprecated endpoints clearly.
+7. Publish API changes in release notes.
+8. Update internal and public API documentation.
+9. Set up alerts for deprecated usage.
+10. Schedule reviews of documentation every quarter.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

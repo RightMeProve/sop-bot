@@ -1,0 +1,44 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: Greeting
+  steps:
+    - intent: greet
+    - action: utter_welcome
+
+- rule: Thank response
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- rule: Ask user to refine keyword when not satisfied
+  steps:
+      - intent: deny
+      - action: utter_refine_keyword
+
+- rule: User is satisfied after seeing SOPs
+  steps:
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_glad_to_help
+
+    # rules.yml
+- rule: Respond to SOP questions when query exists
+  condition:
+    - slot_was_set:
+        - query
+  steps:
+    - intent: ask_sop
+    - action: action_search_sop
+    - action: utter_did_that_help

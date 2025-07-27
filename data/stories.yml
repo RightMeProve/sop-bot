@@ -1,0 +1,75 @@
+version: "3.1"
+
+stories:
+
+- story: User asks SOP but bot needs clarification
+  steps:
+    - intent: ask_sop
+    - action: utter_ask_for_details
+    - intent: ask_sop
+      entities:
+        - query: "seo audits"
+    - slot_was_set:
+        - query: "seo audits"
+    - action: action_search_sop
+    - action: utter_did_that_help
+
+- story: User asks SOP without entity
+  steps:
+    - intent: ask_sop
+    - action: action_search_sop
+
+# stories.yml
+- story: User asks SOP with entity
+  steps:
+    - intent: ask_sop
+      entities:
+        - query: "renew ssl certificate"
+    - slot_was_set:
+        - query: "renew ssl certificate"
+    - action: action_search_sop
+    - action: utter_did_that_help
+
+- story: User asks SOP without entity
+  steps:
+    - intent: ask_sop
+    - action: utter_ask_for_details
+    - intent: ask_sop
+      entities:
+        - query: "seo audits"
+    - slot_was_set:
+        - query: "seo audits"
+    - action: action_search_sop
+    - action: utter_did_that_help
+
+- story: User asks for SOPs and is satisfied
+  steps:
+    - intent: ask_sop
+      entities:
+        - query: "git, code, version"
+    - slot_was_set:
+        - query: "git, code, version"
+    - action: action_search_sop
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_glad_to_help
+
+- story: User asks for SOPs, is unsatisfied, then refines query
+  steps:
+    - intent: ask_sop
+      entities:
+        - query: "update content on cms"
+    - slot_was_set:
+        - query: "update content on cms"
+    - action: action_search_sop
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_refine_keyword
+    - intent: ask_sop
+      entities:
+        - query: "edit homepage cms"
+    - slot_was_set:
+        - query: "edit homepage cms"
+    - action: action_search_sop
+    - action: utter_did_that_help
+

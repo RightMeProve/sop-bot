@@ -1,0 +1,6 @@
+rasa 
+sentence-transformers
+chromadb
+streamlit
+spacy
+python-dotenv

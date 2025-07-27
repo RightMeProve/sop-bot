@@ -1,0 +1,27 @@
+SOP: Website Deployment to Production
+
+Purpose:
+This SOP outlines the step-by-step process for website deployment to production.
+
+Scope:
+This document applies to all relevant stakeholders involved in website deployment to production.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Ensure all code changes have been merged into the main branch.
+2. Run automated test suites and confirm all tests pass.
+3. Update the version number and changelog.
+4. Notify the QA team to begin final testing in staging environment.
+5. Backup the current production environment.
+6. Deploy code to the production server using CI/CD pipeline.
+7. Verify the application is running properly in production.
+8. Perform smoke testing on critical functionality.
+9. Monitor logs and application performance for at least 30 minutes.
+10. Send deployment confirmation and release notes to stakeholders.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

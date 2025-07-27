@@ -1,0 +1,27 @@
+SOP: Performing SEO Audits
+
+Purpose:
+This SOP outlines the step-by-step process for performing seo audits.
+
+Scope:
+This document applies to all relevant stakeholders involved in performing seo audits.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Crawl the website using tools like Screaming Frog or Ahrefs.
+2. Check for missing or duplicate meta tags.
+3. Evaluate page load speed and performance scores.
+4. Verify mobile-friendliness and responsive design.
+5. Ensure proper use of H1, H2, and title tags.
+6. Audit internal linking and backlink profiles.
+7. Look for broken links and 404 errors.
+8. Analyze keyword rankings and content relevance.
+9. Review sitemap and robots.txt file.
+10. Compile a report with prioritized SEO fixes.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

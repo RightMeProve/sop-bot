@@ -1,0 +1,27 @@
+SOP: Handling Website Downtime
+
+Purpose:
+This SOP outlines the step-by-step process for handling website downtime.
+
+Scope:
+This document applies to all relevant stakeholders involved in handling website downtime.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Detect downtime through monitoring alerts or manual reports.
+2. Check server status and application logs for issues.
+3. Inform IT team and relevant stakeholders about the outage.
+4. Post an incident message or maintenance banner on status page.
+5. Identify root cause (e.g., deployment error, server overload).
+6. Rollback recent changes if necessary.
+7. Fix the root issue and restart services.
+8. Verify site availability from multiple locations.
+9. Post-mortem report should be prepared and shared internally.
+10. Update stakeholders and customers when the issue is resolved.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

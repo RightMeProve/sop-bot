@@ -1,0 +1,7 @@
+User Query -> Bot get's the Query -> classify the intent -> take actions based on intent
+
+To run:
+1> rasa run --enable-api --connector rest
+2> rasa run actions (action server)
+3> cd text_sop, python -m http.server 8000 (file server)
+4> streamlit run app.py (front end)

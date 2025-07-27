@@ -1,0 +1,27 @@
+SOP: Web Application Security Audit
+
+Purpose:
+This SOP outlines the step-by-step process for web application security audit.
+
+Scope:
+This document applies to all relevant stakeholders involved in web application security audit.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Identify and list all endpoints of the application.
+2. Scan the application for known vulnerabilities using automated tools.
+3. Check for outdated libraries and dependencies.
+4. Perform input validation tests on forms and APIs.
+5. Ensure authentication mechanisms are robust and tested.
+6. Verify proper use of HTTPS across the application.
+7. Check for open ports and unnecessary services on servers.
+8. Review and update access controls and roles.
+9. Document all findings and recommended actions.
+10. Schedule follow-up audits quarterly.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

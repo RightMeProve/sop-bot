@@ -1,0 +1,27 @@
+SOP: SSL Certificate Renewal
+
+Purpose:
+This SOP outlines the step-by-step process for ssl certificate renewal.
+
+Scope:
+This document applies to all relevant stakeholders involved in ssl certificate renewal.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Monitor certificate expiry dates via dashboard or CLI.
+2. Generate a new Certificate Signing Request (CSR).
+3. Submit CSR to a trusted Certificate Authority (CA).
+4. Verify domain ownership if prompted.
+5. Download the renewed certificate and CA bundle.
+6. Upload the new certificate to the server or CDN.
+7. Restart or reload web server to apply changes.
+8. Verify SSL status using SSL check tools.
+9. Remove old certificates from the system.
+10. Log the renewal in the certificate management system.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---

@@ -1,0 +1,27 @@
+SOP: Content Update on CMS
+
+Purpose:
+This SOP outlines the step-by-step process for content update on cms.
+
+Scope:
+This document applies to all relevant stakeholders involved in content update on cms.
+
+Responsibilities:
+Relevant team leads and team members are responsible for executing this SOP as defined.
+
+Procedure:
+1. Log in to the CMS with your admin credentials.
+2. Navigate to the page or post that needs updating.
+3. Click 'Edit' and make necessary content changes.
+4. Add or update images/media as required.
+5. Use preview mode to review formatting and layout.
+6. Ensure SEO metadata is properly updated.
+7. Set publish date or update schedule if needed.
+8. Save changes and click 'Publish'.
+9. Verify the update on the live website.
+10. Log the changes in the content management tracker.
+
+References / Notes:
+Please refer to internal documentation and tool-specific manuals for additional guidance.
+
+--- End of SOP ---
